@@ -66,13 +66,9 @@ class manager(employee):
         self.bonus()
         self.password = password
         self.numberOfEmployees = numberOfEmployees
-        self.authenticate_password = 
+        self.authenticate_password
     def bonus():
         self.newsalary = salary*1,15
-    def authenticate_password(password):
-        x = input("Enter your password: ")
-        if x == password:
-            True
-        else:
-            False
-    
+    def authenticate_password(x):
+        valid = x == password
+        print(valid)
